@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+.bigMenu {
+    display: none;
+}
+
+.navBar {
+    width: 100%;
+    margin-top: -9px;
+}
+
+.navBar ul li {
+    display: inline-flex;
+    padding: 1px;
+    width: auto;
+    margin-left: -10px;
+    font-size: 9px;
+}
+
+.navBar ul li a {
+    color: rgb(234, 243, 235);
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0;
+    background-image: linear-gradient(to right, rgb(188, 186, 252), rgb(80, 89, 218), #0024f3);
+}
+
+.contact {
+    align-items: center;
+    align-content: center;
+    color: #0024f3;
+}
+
+.contact h1 {
+    margin-bottom: -30px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #FFE8C6;
+}
+
+.submitBtn {
+    background-color: #fc9700;
+    color: white
+}
+
+.form-group button:hover {
+    color: blue;
+}
+
+
+.smallColor {
+    width: 100%;
+    height: 7px;
+}
+
+.smallColor {
+    width: 100%;
+    height: 7px;
+}
+
+.siteImage {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.siteImage img {
+    width: 120px;
+    height: 60px;
+}
+
+.mainLink {
+    background-color: black;
+    border-radius: 35px;
+    width: fit-content;
+}
+
+.joinTel a {
+    text-decoration: none;
+    color: white;
+}
+
+.topIcon {
+    margin-top: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.mainBar {
+    width: 100%;
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.mainBar ul li {
+    display: inline-flex;
+    margin: 2px;
+    padding: 2px;
+    width: 165px;
+}
+
+.mainBar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.active,
+.mainBar ul li a:hover {
+    background: rgb(12, 12, 12);
+    border-radius: 3px;
+    color: white !important;
+}
+
+.bgOre {
+    background-image: linear-gradient(to bottom, rgb(255, 242, 242), #FFE2B8);
+}
+
+.appLogo {
+    border: 5px solid white;
+    border-radius: 40px;
+    font-size: 60px;
+    background-color: white;
+}
+
+#Logo1 {
+    color: black;
+}
+
+#Logo2 {
+    color: blue;
+}
+
+.Icon1 {
+    position: relative;
+    top: 40px;
+
+}
+
+.cenTric {
+    background-color: #fc9700;
+    z-index: 2;
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+}
+
+.cenTric h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.cenTric a:hover {
+    color: blue;
+}
+
+.mapPlace {
+    height: 300px;
+    width: 250px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 250px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 250px;
+    border: 5px solid white;
+}
+
+.locationDetails {
+    text-align: center;
+    color: #fc9700;
+}
+
+.others {
+    width: 100%;
+    background-color: #5445F3;
+    background: url(Group9694.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.others img {
+    width: 120px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+#firstColz img {
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+.firstColArt {
+    margin-left: 10px;
+}
+
+.otherLinks a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.otherLinks .firstColArt {
+    margin-bottom: 10px;
+}
+
+.otherLinks a:hover {
+    color: blue;
+}
+
+.smallBoxCover {
+    display: inline-flex;
+    height: 35px;
+}
+
+.smallBox1 {
+    width: 115px;
+    height: 35px;
+    overflow: hidden;
+    background-color: #5143F3;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#smallBg1 {
+    background-color: white;
+    background: url(Images/google.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#smallBg2 {
+    background-color: #fc9700;
+    margin-left: 7px;
+    background: url(Images/app.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.mediaLinks {
+    background-color: orangered;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: white;
+}
+
+.mediaLinks .linkIcon {
+    font-size: larger;
+    border: 1px solid white;
+    color: unset;
+}
+
+@media screen and (min-width: 350px) {
+    .navBar {
+        margin-top: -4px;
+    }
+
+    .navBar ul li {
+        font-size: 12px;
+    }
+
+    .navBar ul li::after {
+        content: '';
+        border-left: 0px solid transparent;
+        border-right: 20px solid rgb(188, 186, 252);
+        border-top: 25px solid #0024f3;
+        right: -20px;
+        top: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .navBar ul li:last-of-type::after {
+        content: '';
+        border-left: 0px solid black;
+        border-right: 20px solid transparent;
+    }
+
+    .mapouter,
+    .gmap_canvas,
+    .mapPlace {
+        width: 320px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .navBar ul li {
+        font-size: 20px;
+    }
+
+    .navBar ul li::after {
+        border-top: 30px solid #0024f3;
+    }
+
+    .socialLink {
+        height: 80px;
+    }
+}
+
+@media screen and (width: 650px) and (max-width: 800px) {
+
+    .mapouter,
+    .gmap_canvas,
+    .mapPlace {
+        width: 400px;
+    }
+
+    .otherLinks .firstColArt {
+        margin-bottom: unset;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navBar {
+        margin-top: -1px;
+    }
+
+    .navBar ul li {
+        font-size: 22px;
+    }
+
+    .navBar ul li::after {
+        border-top: 35px solid #0024f3;
+    }
+
+    .smallMenu {
+        display: none;
+    }
+
+    .bigMenu {
+        display: block;
+    }
+
+    .topIcon {
+        border: 2px solid white;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+
+    .mapouter,
+    .gmap_canvas,
+    .mapPlace {
+        width: 600px;
+    }
+
+    .socialLink {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: large;
+    }
+
+    .navBar ul li::after {
+        border-top: 35px solid #0024f3;
+    }
+
+    .mapouter,
+    .gmap_canvas,
+    .mapPlace {
+        width: 700px;
+    }
+}
